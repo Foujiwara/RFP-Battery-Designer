@@ -28,7 +28,7 @@ function App(){
   const [width,setWidth]=useState(120);
   const [height,setHeight]=useState(80);
   const [diameter,setDiameter]=useState(21.3);
-  const [gap,setGap]=useState(0.5);
+  const [gap,setGap]=useState(0);
 
   const canvasRef=useRef(null);
 
